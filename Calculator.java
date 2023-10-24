@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Calculator {
 
     private String calcName;
@@ -9,4 +11,9 @@ public class Calculator {
     public Calculator(String calcName) {
         this.calcName = calcName;
     }
+
+    public void getUserInput() {
+        Scanner getInput = new Scanner(System.in);
+    }
+
 }
